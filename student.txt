@@ -1,0 +1,3 @@
+student name : Sam Gijtenbeek	
+student number : 612880
+student class : INF1Sc
