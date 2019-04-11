@@ -1,0 +1,258 @@
+body {
+	margin: auto;
+    background-color: #FFFFFF;
+    margin-top: 0px;
+}
+
+#header	{
+	font-family: 'Lora', "Arial", "Times", "serif";
+	font-size: 80px;
+	position: relative;
+	color: #FFFFFF;
+    line-height: 200px;
+  	text-shadow:
+   	 -1px -1px 0 #000,  
+       1px -1px 0 #000,
+        -1px 1px 0 #000,
+          1px 1px 0 #000;
+}
+
+#video_footer {
+	position:absolute;
+	top: 0;
+	left: 0;
+	background-color: #2699FB;
+	width: 100%;
+	height: 100vh;
+	opacity: 0.60;
+}
+
+.head {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;	
+}
+
+.head_contact {
+	position: relative;
+	width: 100%;
+	height: 20vh;
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.video_page {
+	width: 100%;	
+}
+
+.img_page {
+	width: 100%;
+	height: 100vh;
+}
+#video_header {
+	position: absolute;
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Lora', "Arial", "Times", "serif";
+	padding: 20px;
+	margin: 15px;
+	z-index: 1;
+	opacity: 0.85;
+}
+
+#video_header h1{
+	font-size: 63px;
+}
+
+#video_header h2{
+	font-size: 35px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    background-color: #AAAAAA;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    border-top: 3px solid #2699FB;
+	border-bottom: 3px solid #2699FB;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+}
+
+li a {
+	font-family: 'Lora', "Arial", "Times", "serif";
+	color: #F5F5F5;
+    text-transform: uppercase;
+	display: block;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #444444;
+}
+
+.home {
+	text-align: left;
+}
+
+
+.inhoud {
+    font-family: 'Lora', "Arial", "Times", "serif";
+    background-color: #F5F5F5;
+    width: 50%;
+    color: #707070;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;	
+	border-radius: 25px;
+	border: 2px solid #2699FB;
+}
+
+.inhoud h2 {
+	font-size: 25px;
+}
+
+p {
+    display: block;
+}
+
+img.afbeelding {
+	position: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	border: 2px solid #AAAAAA;
+	width: 50%;
+	padding: 0;
+	display: block;
+	object-fit: cover;
+}
+
+.contactform {
+    width: 960px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: #FFFFFF;
+
+}
+
+#info {
+    font-family: 'Lora', "Arial", "Times", "serif";
+    font-size: 1.5em;
+    padding-left: 20px;
+    color: #707070;
+}
+
+.contactform {
+    width: 960px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: #F5F5F5;
+}
+
+fieldset {
+    padding: 0;
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#Select {
+    background-color: #FFFFFF
+}
+
+input[type=submit] {
+    background-color: #2699FB;
+    font-family: 'Lora', "Arial", "Times", "serif";
+    font-size: 30px;
+    color: #FFFFFF;
+    width: 90%;
+    height: 60px;
+    padding: 0;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 60px;
+}
+
+input, textarea {
+    width: 97%;
+    padding: 12px;  
+    float: left;
+    font-family: 'Lora', "Arial", "Times", "serif";
+    color: #707070;
+    resize: none;
+    border: 0;
+
+}
+
+select {
+    height: 40px;
+    width: 525px;
+    float: right;
+    font-family: 'Lora', "Arial", "Times", "serif";
+    color: #707070;
+    font-size: 1.5em;
+}
+
+label {
+    font-family: 'Lora', "Arial", "Times", "serif";
+    color: #707070;
+    font-size: 1.5em;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.contactFormFieldset input, textarea {
+    font-family: 'Lora', "Arial", "Times", "serif";
+    color: #707070;
+    font-size: 1.5em;
+}
+
+.footer {
+	position: absolute;	
+	font-family: 'Lora', "Arial", "Times", "serif";
+    background-color: #AAAAAA;
+    color: #FFFFFF;
+	width: 100%;
+    font-size: 25px;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	margin-top: 20px;
+    border-top: 2px solid #2699FB;
+}
