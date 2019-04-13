@@ -1,86 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-		<link rel="manifest" href="img/site.webmanifest">
-		<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-		<meta name="msapplication-TileColor" content="#da532c">
-		<meta name="theme-color" content="#ffffff">
-		<meta name="keywords" content="HTML, CSS">
-		<meta name="description" content="WebMarkup Assessment">
-		<meta name="author" content="Sam Gijtenbeek">
-		<title> Home </title>
+<html lang="nl">
+
+<!--head containing stylesheet link, icons, font, etc.-->
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="WebMarkup Assessment">
+    <meta name="author" content="Sam Gijtenbeek">
+    <title> contact </title>
+
+</head>
+
+<body>
+	<!--title section, no video-->
+    <section>
+        <article class="head_contact">
+            <header id="video_header" title="Main">
+                <h1>Contact</h1>
+            </header>
+            <footer id="video_footer"></footer>
+        </article>
+    </section>
 	
-	</head>
-	<body>
-		<article class="head_contact">
-			<header id="video_header" title="Main" alt="Main">
-				<h1>Contact</h1>
-			</header>						
-			<footer id="video_footer"></footer>
-			</article>
+	<!--navigation section for 4 pages-->
+    <nav>
+        <ul class="nav">
+            <li class="home"><a href="index.html">Home</a></li>
+            <li class="wijk"><a href="wijk.html">Amsterdamsewijk</a></li>
+            <li class="sports"><a href="sport.html">Sporten</a></li>
+            <li class="referral"><a href="referral.html">Referral</a></li>
+        </ul>
+    </nav>
 
-		<nav>
-			<ul class="nav">
-				<li class="home"><a href="index.html">Home</a></li>
-  				<li class="wijk"><a href="wijk.html">Amsterdamsewijk</a></li>
-  				<li class="sport"><a href="sport.html">Sporten</a></li>
-				<li class="referral"><a href="referral.html">Referral</a></li>
-			</ul>
-		</nav>
+    <article class="inhoud"> <!--textbox-->
+        <p> Vul dit formulier in om contact op te nemen. </p>
+    </article>
 
-		<article class="inhoud">
-			<p> Vul dit formulier om contact op te nemen. </p>
-		</article>
+    <section class="contactform"> <!--contact form-->       
+        <form action="http://witan.nl/inholland/testform.php" method="post">			
+            <fieldset class="contactFormFieldset">
+				<legend id="info"> Vul alle velden in. </legend>
+                <input type="text" name="onderwerp" placeholder="Onderwerp.." />
+            </fieldset>
+            <fieldset class="contactFormFieldset">
+                <input type="text" name="name" placeholder="Your name.." />
+            </fieldset>
+            <fieldset class="contactFormFieldset">
+                <input type="email" name="email" placeholder="Your email.." />
+            </fieldset>
+            <fieldset>
+                <textarea rows="7" cols="40" name="message" placeholder="Write something.."></textarea>
+            </fieldset>
+            <input type="submit" value="Submit" />
+        </form>
+    </section>
+	
+	<!--footer section-->
+	<section>
+		<footer class="footer">
+			<p>Made by Sam Gijtenbeek&copy; - Inholland Haarlem - 2019</p>            
+        </footer>
+	</section>
 
-		<section class="contactform">	
-			<p id="info"> More information </p>
-			<form action="nowhere.php" method="post">
-				<fieldset class="contactFormFieldset">
-					<input
-							type="text"
-							name="onderwerp"
-							placeholder="Onderwerp.."
-					/>
-				</fieldset>
-				<fieldset class="contactFormFieldset">
-					<input
-							type="text"
-							name="contactFormName"
-							placeholder="Your name.."
-					/>
-				</fieldset>
-				<fieldset class="contactFormFieldset">
-					<input
-							type="email"
-							name="email"
-							placeholder="Your email.."
-					/>
-				</fieldset>
-				<fieldset>
-					<textarea
-							rows="7"
-							cols="40"
-							name="message"
-							placeholder="Write something.."
-					></textarea>
-				</fieldset>
-				<input
-						type="submit"
-						value="Submit"
-				/>
-			</form>
-		</section>
-		<section>
-		<section>
-			<footer class="footer">
-				Sam Gijtenbeek - Inholland Haarlem - 2019
-			</footer>
-		</section>
-		
-	</body>
+</body>
+
 </html>

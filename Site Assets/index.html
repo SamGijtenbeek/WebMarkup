@@ -1,72 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-		<link rel="manifest" href="img/site.webmanifest">
-		<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-		<meta name="msapplication-TileColor" content="#da532c">
-		<meta name="theme-color" content="#ffffff">
-		<meta name="keywords" content="HTML, CSS">
-		<meta name="description" content="WebMarkup Assessment">
-		<meta name="author" content="Sam Gijtenbeek">
-		<title> Home </title>
+<html lang="nl">
+
+<!--head containing stylesheet link, icons, font, etc.-->
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="WebMarkup Assessment">
+    <meta name="author" content="Sam Gijtenbeek">
+    <title> Home </title>
+
+</head>
+
+<body>
+
+	<!--video section, header contains title, footer is for extra full page style-->
+    <section>
+        <article class="head">
+            <header id="video_header" title="Main">
+                <h1>Haarlem</h1>
+                <h2>Een bruisende stad!</h2>
+            </header>
+            <video class="video_page" autoplay loop muted>
+                <source src="video/video_stad.mp4" type="video/mp4">
+            </video>
+            <footer id="video_footer"></footer>
+        </article>
+    </section>
+
+
+	<!--navigation section for 4 pages-->
+    <nav>
+        <ul class="nav">
+            <li class="wijk"><a href="wijk.html">Amsterdamsewijk</a></li>
+            <li class="sports"><a href="sport.html">Sporten</a></li>
+            <li class="referral"><a href="referral.html">Referral</a></li>
+            <li class="contact"><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>	
 	
-	</head>
-	<body>
-		<section>									
-			<article class="head">
-			<header id="video_header" title="Main" alt="Main">
-				<h1>Haarlem</h1>
-				<h2>Een bruisende stad!</h2>
-			</header>
-			<video class="video_page" autoplay="true" loop="true" muted="true">
-				<source src="video/video_stad.mp4" type="video/mp4">								
-			</video>
-			
-			<footer id="video_footer"></footer>
-			</article>
-			
-			
-			
-		</section>
-		
-		<nav>
-			<ul class="nav">
-  				<li class="wijk"><a href="wijk.html">Amsterdamsewijk</a></li>
-  				<li class="sport"><a href="sport.html">Sporten</a></li>
-				<li class="referral"><a href="referral.html">Referral</a></li>
-  				<li class="contact"><a href="Contact.html">Contact</a></li>
-			</ul>
-		</nav>
-		
-		<article class="inhoud">
-			<h2>Over de stad</h2>
-			<p>De mooie stad Haarlem is de hoofdstad van de provincie Noord-Holland. 
-			Haarlem telt ruim 160.000 inwoners en door de gezellige sfeer die in de stad te vinden is Haarlem het bezoeken waard! </p>
-		</article>
-		
-		<section>
-			<img title="Haarlem1" alt="unable to load" class="afbeelding" src="img/haarlem1.png">
-		</section>
+	<!--cookie statement-->
+	<article class="alert">
+		<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+			Deze site gebruikt cookies.
+	</article>
+	
+	<!--main section-->
+    <section>
+        <article class="inhoud"> <!--textbox-->
+            <h2>Over de stad</h2>
+            <p>De mooie stad Haarlem is de hoofdstad van de provincie Noord-Holland. Haarlem telt ruim 160.000 inwoners en door de gezellige sfeer die in de stad te vinden is Haarlem het bezoeken waard! </p>
+        </article>
 
-		<article class="inhoud">
-			<h2>Cultuur</h2>
-			<p>Haarlem is een uitstekende stad om te bezoeken als je cultuur interessant vind. Haarlem bestaat al sinds de 10e eeuw, en dus is er genoeg te zien. De stad telt wel 1.114 rijksmonumenten.</p>
-		</article>
+        <img title="Haarlem1" alt="unable to load" class="afbeelding" src="img/haarlem1.png"> <!--image-->
 
-		<section>
-			<img title="Haarlem2" alt="unable to load" class="afbeelding" src="img/haarlem2.png">
-		</section>
-		
-		<section>
-			<footer class="footer">
-				Sam Gijtenbeek - Inholland Haarlem - 2019
-			</footer>
-		</section>
-		
-	</body>
+        <article class="inhoud"> <!--textbox-->
+            <h2>Cultuur</h2>
+            <p>Haarlem is een uitstekende stad om te bezoeken als u cultuur interessant vind. Haarlem bestaat al sinds de 10e eeuw, en dus is er genoeg te zien. De stad telt wel 1.114 rijksmonumenten!</p>
+            <p>Het historische karakter van de binnenstad van Haarlem is nog altijd intact. Hofjes, pleinen, grachten en kerken zijn er genoeg. In dit historische centrum vindt u verder nog beroemde musea, drukke winkelstraten en gezellige restaurant. Zelf het strand ligt om de hoek! Voorbeelden van bezienswaardigheden zijn het Teylers museum, de Grote Markt en het het Frans Hals museum. De bloembollenvelden in de omringende omgeving zijn ook een echte trekpleister voor toeristen. Om alle cultuur te kunnen meemaken zijn ook genoeg wandelroutes opgezet. </p>
+        </article>
+
+        <img title="Haarlem2" alt="unable to load" class="afbeelding" src="img/haarlem2.png"> <!--image-->
+    </section>
+
+	<!--footer section-->
+    <section>
+        <footer class="footer">
+			<p>Made by Sam Gijtenbeek&copy; - Inholland Haarlem - 2019</p>            
+        </footer>
+    </section>
+
+</body>
+
 </html>

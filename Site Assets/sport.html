@@ -1,72 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-		<link rel="manifest" href="img/site.webmanifest">
-		<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-		<meta name="msapplication-TileColor" content="#da532c">
-		<meta name="theme-color" content="#ffffff">
-		<meta name="keywords" content="HTML, CSS">
-		<meta name="description" content="WebMarkup Assessment">
-		<meta name="author" content="Sam Gijtenbeek">
-		<title> Home </title>
-	
-	</head>
-	<body>
-		<section>									
-			<article class="head">
-			<header id="video_header" title="Main" alt="Main">
-				<h1>Haarlem</h1>
-				<h2>Een bruisende stad!</h2>
-			</header>
-			<video class="video_page" autoplay="true" loop="true" muted="true">
-				<source src="video/BJJ-video.mp4" type="video/mp4">								
-			</video>
-			
-			<footer id="video_footer"></footer>
-			</article>
-			
-			
-			
-		</section>
-		
-		<nav>
-			<ul class="nav">
-				<li class="home"><a href="index.html">Home</a></li>
-  				<li class="wijk"><a href="wijk.html">Amsterdamsewijk</a></li>  				
-				<li class="referral"><a href="referral.html">Referral</a></li>
-  				<li class="contact"><a href="Contact.html">Contact</a></li>
-			</ul>
-		</nav>
-		
-		<article class="inhoud">
-			<h2>Over de stad</h2>
-			<p>De mooie stad Haarlem is de hoofdstad van de provincie Noord-Holland. 
-			Haarlem telt ruim 160.000 inwoners en door de gezellige sfeer die in de stad te vinden, is Haarlem het bezoeken waard! </p>
-		</article>
-		
-		<section>
-			<img title="Haarlem1" alt="unable to load" class="afbeelding" src="img/haarlem1.jpg">
-		</section>
+<html lang="nl">
 
-		<article class="inhoud">
-			<h2>Cultuur</h2>
-			<p>Haarlem is een uitstekende stad om te bezoeken als je cultuur interessant vind. Haarlem bestaat al sinds de 10e eeuw, en dus is er genoeg te zien. De stad telt wel 1.114 rijksmonumenten</p>
-		</article>
+<!--head containing stylesheet link, icons, font, etc.-->
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="WebMarkup Assessment">
+    <meta name="author" content="Sam Gijtenbeek">
+    <title> Sport </title>
 
-		<section>
-			<img title="Haarlem2" alt="unable to load" class="afbeelding" src="img/haarlem2.jpg">
-		</section>
-		
-		<section>
-			<footer class="footer">
-				Sam Gijtenbeek - Inholland Haarlem - 2019
-			</footer>
-		</section>
-		
-	</body>
+</head>
+
+<body>
+
+	<!--image section, header contains title, footer is for extra full page style-->
+    <section>
+        <article class="head">
+            <header id="video_header" title="Main">
+                <h1>Sport in Haarlem</h1>
+            </header>
+            <img title="sport" alt="unable to load" class="img_page" src="img/sport.png">
+
+            <footer id="video_footer"></footer>
+        </article>
+    </section>
+
+	<!--navigation section for 4 pages-->
+    <nav>
+        <ul class="nav">
+            <li class="home"><a href="index.html">Home</a></li>
+            <li class="wijk"><a href="wijk.html">Amsterdamsewijk</a></li>
+            <li class="referral"><a href="referral.html">Referral</a></li>
+            <li class="contact"><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+	<!--main section-->
+    <section>
+        <article class="inhoud"> <!--textbox-->
+            <h2>Sporten in Haarlem</h2>
+            <p>Haarlem heeft grote variatie aan sporten. Hieronder zullen een aantal sporten samen met de clubs getoont worden.</p>
+        </article>
+
+        <article class="sport"> <!--textbox-->
+            <a href="https://www.taekwon.nl/">
+                <img title="jiu-jitsu" alt="unable to load" class="afbeeldingSportRechts" src="img/jiu-jitsu.png">
+            </a>
+            <h2>Hwa-Rang Dragon</h2>
+            <p>Hwa-Rang Dragon is een club gefocused op Jiu Jitsu en Taekwondo. Het is al 20 jaar de meest toonaangevende martial arts school van Haarlem en omstreken.</p>
+            <p>Bezoek de website van Hwa-Rang Dragon <a href="https://www.taekwon.nl/">hier</a> of klik op referral bij de navigatie voor meer informatie.</p>
+        </article>
+
+        <article class="sport"> <!--textbox-->
+            <a href="http://www.svdeblinkert.nl/">
+                <img title="handbal" alt="unable to load" class="afbeeldingSportLinks" src="img/handbal.png">
+            </a>
+            <h2>SV De Blinkert</h2>
+            <p>Sportvereniging De Blinkert is een vereniging voor de handbal. Er zijn teams in alle leeftijdscategorieën. Voor handbal, plezier en inzet zit u goed!</p>
+            <p>Bezoek de website van De Blinkert <a href="http://www.svdeblinkert.nl/">hier</a> voor meer informatie.</p>
+        </article>
+
+        <article class="sport"> <!--textbox-->
+            <a href="https://www.konhfc.nl/">
+                <img title="voetbal" alt="unable to load" class="afbeeldingSportRechts" src="img/voetbal.png">
+            </a>
+            <h2>Koninklijke HFC</h2>
+            <p>De koninklijk Haarlemsche Football Club is een vereniging voor de voetbal. Deze vereniging, opgericht in 1879, hecht zijn waarde aan de cultuur en traditie. HFC heeft een indrukwekkend verleden en wil dit doorzetten naar de toekomst.</p>
+            <p>Bezoek de website van HFC <a href="https://www.konhfc.nl/">hier</a> voor meer informatie.</p>
+        </article>
+
+        <article class="sport"> <!--textbox-->
+            <a href="http://www.munenmuso.nl/">
+                <img title="vechtsport" alt="unable to load" class="afbeeldingSportLinks" src="img/munenmuso.png">
+            </a>
+            <h2>Munenmuso</h2>
+            <p>De dojo van Munen Muso biedt een grote variatie aan Japanse vechtsporten aan. Van judo en karate tot Taiki Jutsu. Zonder gedacht, zonder bedoeling. Met vele trainingen zal de betekenis hierachter duidelijk worden.</p>
+            <p>Bezoek de website van Munen Muso <a href="http://www.munenmuso.nl/">hier</a> voor meer informatie.</p>
+        </article>
+
+        <article class="sport"> <!--textbox-->
+            <a href="https://vereniging.triplethreat.nl/">
+                <img title="voetbal" alt="unable to load" class="afbeeldingSportRechts" src="img/voetbal.png">
+            </a>
+            <h2>Triple Threat</h2>
+            <p>Triple Threat is een basketbalvereniging gericht op de jongerencultuur. Ze zijn in 2 jaar tijd van 3 naar 9 teams gegaan. Triple Threat is perfect voor jongeren in Haarlem en omstreken die eraan denken om te gaan basketballen.</p>
+            <p>Bezoek de website van Triple Threat <a href="https://vereniging.triplethreat.nl/">hier</a> voor meer informatie.</p>
+        </article>
+
+        <article class="sport"> <!--textbox-->
+            <a href="https://www.hchaarlem.nl/site/Default.asp">
+                <img title="hockey" alt="unable to load" class="afbeeldingSportLinks" src="img/hockey.png">
+            </a>
+            <h2>HC Haarlem</h2> 
+            <p>De Hockey Club Haarlem is een grote vereniging voor alle hockeyfans. Met een grote variatie aan teams kan u altijd ergens terecht.</p>
+            <p>Bezoek de website van HC Haarlem <a href="https://www.hchaarlem.nl/site/Default.asp">hier</a> voor meer informatie.</p>
+        </article>
+
+        <article class="sport"> <!--textbox-->
+            <a href="https://www.kenamju.nl/">
+                <img title="fitness" alt="unable to load" class="afbeeldingSportRechts" src="img/fitness.png">
+            </a>
+            <h2>Kenamju</h2>
+            <p>Wilt u gaan fitnessen of meedoen aan een les yoga? Kenamju is hier perfect voor. Hier krijgt iedereen persoonlijke aandacht. Er zijn dagelijks individuele en groeplessen, en dit de hele week door! Ook biedt Kenamju vechtsportlessen aan.</p>
+            <p>Bezoek de website van Kenamju <a href="https://www.kenamju.nl/">hier</a> voor meer informatie.</p>
+        </article>
+
+        <article class="sport"> <!--textbox-->
+            <a href="http://rugbyclubhaarlem.nl/">
+                <img title="rugby" alt="unable to load" class="afbeeldingSportLinks" src="img/rugby.png">
+            </a>
+            <h2>RFC Haarlem</h2>
+            <p>Op zoek naar een wat ruigere sport, dan is rugby voor u. Rugbyclub Haarlem is een club met enthousiaste trainers die u alle aspecten van het spel leren.</p>
+            <p>Bezoek de website van RFC Haarlem <a href="http://rugbyclubhaarlem.nl/">hier</a> voor meer informatie.</p>
+        </article>
+
+        <article class="sport"> <!--textbox-->
+            <a href="https://five21.nl/">
+                <img title="five21" alt="unable to load" class="afbeeldingSportRechts" src="img/functraining.png">
+            </a>
+            <h2>Five21</h2>
+            <p>Five21 is perfect voor diegene die zijn conditie en kracht wilt verbeteren. Gewichtsheffen, conditietraining, boksen en zelfs Jiu Jitsu. Met coaches en sporters die u ondersteunen in het verbeteren van uw lichaam.</p>
+            <p>Bezoek de website van Five21 <a href="https://five21.nl/">hier</a> voor meer informatie.</p>
+        </article>
+
+        <article class="sport"> <!--textbox-->
+            <a href="http://gymhaarlem.nl/">
+                <img title="rugby" alt="unable to load" class="afbeeldingSportLinks" src="img/kickboksen.png">
+            </a>
+            <h2>Gym Haarlem</h2>
+            <p>Boksen, kickboksen, MMA en zelfs fitness. Gym Haarlem heeft een groot aanbod van vechtsporten om zo u gezondheid te verbeteren.</p>
+            <p>Bezoek de website van Gym Haarlem <a href="http://gymhaarlem.nl/">hier</a> voor meer informatie.</p>
+        </article>
+    </section>
+
+	<!--footer section-->
+    <section>
+        <footer class="footer">
+			<p>Made by Sam Gijtenbeek&copy; - Inholland Haarlem - 2019</p>            
+        </footer>
+    </section>
+
+</body>
+
 </html>
